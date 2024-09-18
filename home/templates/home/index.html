@@ -2,5 +2,58 @@
 {% load static %}
 
 {% block content %}
-    <h1>Welcome to the Shelly's Corner</h1>
+<!-- Home hero section with welcome message -->
+<div class="p-5 mb-4 home-background">
+    <div class="container-fluid py-5">
+        <div class="home-text-background container col-md-8">
+            <h1 class="display-5 fw-bold text-uppercase home-background-text-shadow">Welcome!</h1>
+            <p class="fs-4 home-background-text-shadow">Scrivere messaggio di benvenuto!</p>
+            <a href="" class="btn btn-primary btn-lg text-uppercase mt-1">Shop Now</a>
+        </div>
+    </div>
+</div>
+
+<!-- Categories container -->
+<div class="container">
+    <div class="row row-cols-1 row-cols-lg-2">
+        <!-- Crime category -->
+        <div class="col mb-4">
+            <a href="">
+                <div class="category-box">
+                    <div class="category-image kitchen-category"></div>
+                    <div class="btn btn-lg btn-primary category-button">Crime</div>
+                </div>
+            </a>
+        </div>
+        <!-- Fiction Science category -->
+        <div class="col mb-4">
+            <a href="">
+                <div class="category-box">
+                    <div class="category-image living-room-category"></div>
+                    <div class="btn btn-lg btn-primary category-button">Fiction Science</div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-lg-2">
+        <!-- Classic category -->
+        <div class="col mb-4">
+            <a href="">
+                <div class="category-box">
+                    <div class="category-image bedroom-category"></div>
+                    <div class="btn btn-lg btn-primary category-button">Classic</div>
+                </div>
+            </a>
+        </div>
+        <!-- Technology category -->
+        <div class="col mb-4">
+            <a href="">
+                <div class="category-box">
+                    <div class="category-image bathroom-category"></div>
+                    <div class="btn btn-lg btn-primary category-button">Technology</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
 {% endblock %}
