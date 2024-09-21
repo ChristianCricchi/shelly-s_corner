@@ -1,0 +1,1010 @@
+[
+ {
+   "pk": 1,
+   "model": "products.product",
+   "fields": {
+      "name": "The Maltese Falcon",
+      "author": "Dashiell Hammett",
+      "description": "A hard-boiled detective novel featuring Sam Spade on the trail of a priceless statuette.",
+      "price": 8.99,
+      "category": 1,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 2,
+   "model": "products.product",
+   "fields": {
+      "name": "The Big Sleep",
+      "author": "Raymond Chandler",
+      "description": "Private detective Philip Marlowe investigates blackmail and murder in Los Angeles.",
+      "price": 9.99,
+      "category": 1,
+      "rating": 4.4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 3,
+   "model": "products.product",
+   "fields": {
+      "name": "Double Indemnity",
+      "author": "James M. Cain",
+      "description": "An insurance salesman is lured into a murderous scheme by a femme fatale.",
+      "price": 7.99,
+      "category": 1,
+      "rating": 4.2,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 4,
+   "model": "products.product",
+   "fields": {
+      "name": "Murder on the Orient Express",
+      "author": "Agatha Christie",
+      "description": "Detective Hercule Poirot investigates a murder on a snowbound train.",
+      "price": 8.99,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 5,
+   "model": "products.product",
+   "fields": {
+      "name": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "description": "Sherlock Holmes investigates a supernatural hound terrorizing a family on the moors.",
+      "price": 7.99,
+      "category": 2,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 6,
+   "model": "products.product",
+   "fields": {
+      "name": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "description": "A journalist and a hacker investigate a decades-old disappearance.",
+      "price": 9.99,
+      "category": 2,
+      "rating": 4.1,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 7,
+   "model": "products.product",
+   "fields": {
+      "name": "Gone Girl",
+      "author": "Gillian Flynn",
+      "description": "A woman disappears on her wedding anniversary, leaving her husband as the prime suspect.",
+      "price": 8.99,
+      "category": 3,
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 8,
+   "model": "products.product",
+   "fields": {
+      "name": "The Silence of the Lambs",
+      "author": "Thomas Harris",
+      "description": "FBI trainee Clarice Starling seeks help from an imprisoned cannibal to catch a serial killer.",
+      "price": 9.99,
+      "category": 3,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 9,
+   "model": "products.product",
+   "fields": {
+      "name": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "description": "A symbologist races to solve a murder and uncover a conspiracy involving a secret society.",
+      "price": 10.99,
+      "category": 3,
+      "rating": 3.8,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 10,
+   "model": "products.product",
+   "fields": {
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A young girl's coming-of-age story set against the backdrop of racial injustice in the American South.",
+      "price": 9.99,
+      "category": 4,
+      "rating": 4.7,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 11,
+   "model": "products.product",
+   "fields": {
+      "name": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian novel set in a totalitarian society where critical thought is suppressed.",
+      "price": 8.99,
+      "category": 4,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 12,
+   "model": "products.product",
+   "fields": {
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A tale of decadence and excess in America's Jazz Age, exploring themes of wealth and the American Dream.",
+      "price": 10.99,
+      "category": 4,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 13,
+   "model": "products.product",
+   "fields": {
+      "name": "The Book Thief",
+      "author": "Markus Zusak",
+      "description": "The story of a young girl in Nazi Germany who finds solace in stealing books and sharing them with others.",
+      "price": 11.99,
+      "category": 5,
+      "rating": 4.6,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 14,
+   "model": "products.product",
+   "fields": {
+      "name": "Wolf Hall",
+      "author": "Hilary Mantel",
+      "description": "A fictionalized biography of Thomas Cromwell in the court of Henry VIII.",
+      "price": 12.99,
+      "category": 5,
+      "rating": 4.4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 15,
+   "model": "products.product",
+   "fields": {
+      "name": "The Pillars of the Earth",
+      "author": "Ken Follett",
+      "description": "An epic tale of ambition and love set against the building of a cathedral in 12th-century England.",
+      "price": 13.99,
+      "category": 5,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 16,
+   "model": "products.product",
+   "fields": {
+      "name": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "description": "A story of friendship, betrayal, and redemption set against the backdrop of Afghanistan's tumultuous history.",
+      "price": 10.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 17,
+   "model": "products.product",
+   "fields": {
+      "name": "The Goldfinch",
+      "author": "Donna Tartt",
+      "description": "A coming-of-age novel about a young man's journey through loss, love, and the underground art world.",
+      "price": 11.99,
+      "category": 6,
+      "rating": 4.2,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 18,
+   "model": "products.product",
+   "fields": {
+      "name": "Normal People",
+      "author": "Sally Rooney",
+      "description": "A complex love story exploring the subtleties of class and the electricity of first love in modern-day Ireland.",
+      "price": 9.99,
+      "category": 6,
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 19,
+   "model": "products.product",
+   "fields": {
+      "name": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A witty romance set in Georgian England, exploring themes of love, marriage, and social class.",
+      "price": 7.99,
+      "category": 7,
+      "rating": 4.7,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 20,
+   "model": "products.product",
+   "fields": {
+      "name": "Great Expectations",
+      "author": "Charles Dickens",
+      "description": "A coming-of-age story following an orphan boy's journey through life in Victorian England.",
+      "price": 8.99,
+      "category": 7,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 21,
+   "model": "products.product",
+   "fields": {
+      "name": "Wuthering Heights",
+      "author": "Emily Bront�",
+      "description": "A passionate and dark tale of love and revenge set on the Yorkshire moors.",
+      "price": 7.99,
+      "category": 7,
+      "rating": 4.4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 22,
+   "model": "products.product",
+   "fields": {
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A critique of the American Dream set in the Roaring Twenties.",
+      "price": 9.99,
+      "category": 8,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 23,
+   "model": "products.product",
+   "fields": {
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A powerful exploration of racial injustice and loss of innocence in the American South.",
+      "price": 8.99,
+      "category": 8,
+      "rating": 4.8,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 24,
+   "model": "products.product",
+   "fields": {
+      "name": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian novel depicting a totalitarian future where critical thought is suppressed.",
+      "price": 8.99,
+      "category": 8,
+      "rating": 4.6,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 25,
+   "model": "products.product",
+   "fields": {
+      "name": "The Odyssey",
+      "author": "Homer",
+      "description": "An epic poem following Odysseus's long journey home after the Trojan War.",
+      "price": 6.99,
+      "category": 9,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 26,
+   "model": "products.product",
+   "fields": {
+      "name": "Medea",
+      "author": "Euripides",
+      "description": "A Greek tragedy exploring themes of revenge, love, and the position of women in society.",
+      "price": 5.99,
+      "category": 9,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 27,
+   "model": "products.product",
+   "fields": {
+      "name": "The Aeneid",
+      "author": "Virgil",
+      "description": "An epic poem recounting the legendary story of Aeneas, a Trojan who traveled to Italy and became the ancestor of the Romans.",
+      "price": 7.99,
+      "category": 9,
+      "rating": 4.4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 28,
+   "model": "products.product",
+   "fields": {
+      "name": "The Martian",
+      "author": "Andy Weir",
+      "description": "An astronaut stranded on Mars uses his ingenuity to survive while NASA and a team of scientists work to bring him home.",
+      "price": 11.99,
+      "category": 10,
+      "rating": 4.7,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 29,
+   "model": "products.product",
+   "fields": {
+      "name": "Rendezvous with Rama",
+      "author": "Arthur C. Clarke",
+      "description": "A team of astronauts explores a mysterious cylindrical object that enters the solar system, discovering its secrets and potential alien origins.",
+      "price": 9.99,
+      "category": 10,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 30,
+   "model": "products.product",
+   "fields": {
+      "name": "Neuromancer",
+      "author": "William Gibson",
+      "description": "A groundbreaking cyberpunk novel following a washed-up computer hacker hired for one last job, exploring themes of artificial intelligence and virtual reality.",
+      "price": 10.99,
+      "category": 10,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 31,
+   "model": "products.product",
+   "fields": {
+      "name": "Dune",
+      "author": "Frank Herbert",
+      "description": "An epic science fiction saga set on a desert planet, exploring politics, religion, and ecology as houses vie for control of a valuable resource.",
+      "price": 12.99,
+      "category": 11,
+      "rating": 4.6,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 32,
+   "model": "products.product",
+   "fields": {
+      "name": "Foundation",
+      "author": "Isaac Asimov",
+      "description": "The first book in a series chronicling the collapse and rebirth of a vast interstellar empire, based on the principles of psychohistory.",
+      "price": 10.99,
+      "category": 11,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 33,
+   "model": "products.product",
+   "fields": {
+      "name": "Ender's Game",
+      "author": "Orson Scott Card",
+      "description": "A young boy is trained in a battle school to become humanity's last hope against an alien threat, exploring themes of leadership and morality.",
+      "price": 9.99,
+      "category": 11,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 34,
+   "model": "products.product",
+   "fields": {
+      "name": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "description": "Set in a near-future totalitarian society, the novel follows a woman forced into sexual servitude in a world of declining birth rates.",
+      "price": 11.99,
+      "category": 12,
+      "rating": 4.4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 35,
+   "model": "products.product",
+   "fields": {
+      "name": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": "A classic dystopian novel depicting a genetically engineered society addicted to pleasure and conformity.",
+      "price": 8.99,
+      "category": 12,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 36,
+   "model": "products.product",
+   "fields": {
+      "name": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "description": "In a dystopian future, young people are forced to participate in a televised battle to the death as entertainment for the ruling class.",
+      "price": 10.99,
+      "category": 12,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 37,
+   "model": "products.product",
+   "fields": {
+      "name": "Seveneves",
+      "author": "Neal Stephenson",
+      "description": "When the moon explodes, humanity has two years to get off Earth before debris rains down. The story follows the survivors' 5000-year journey in space.",
+      "price": 14.99,
+      "category": 10,
+      "rating": 4.1,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 38,
+   "model": "products.product",
+   "fields": {
+      "name": "The Three-Body Problem",
+      "author": "Cixin Liu",
+      "description": "Set against the backdrop of China's Cultural Revolution, a secret military project sends signals into space to establish contact with aliens.",
+      "price": 12.99,
+      "category": 10,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 39,
+   "model": "products.product",
+   "fields": {
+      "name": "Blindsight",
+      "author": "Peter Watts",
+      "description": "A crew of transhuman scientists is sent to investigate a mysterious alien object on the edge of the solar system.",
+      "price": 10.99,
+      "category": 10,
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 40,
+   "model": "products.product",
+   "fields": {
+      "name": "Leviathan Wakes",
+      "author": "James S. A. Corey",
+      "description": "The first book in The Expanse series, following a ship's captain and a detective as they unravel a conspiracy that threatens the entire solar system.",
+      "price": 11.99,
+      "category": 11,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 41,
+   "model": "products.product",
+   "fields": {
+      "name": "Ancillary Justice",
+      "author": "Ann Leckie",
+      "description": "The story of Breq, an AI and sole survivor of a starship destroyed by treachery, on a quest for revenge.",
+      "price": 10.99,
+      "category": 11,
+      "rating": 4.1,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 42,
+   "model": "products.product",
+   "fields": {
+      "name": "The Long Way to a Small, Angry Planet",
+      "author": "Becky Chambers",
+      "description": "A character-driven space adventure following the crew of a ship that creates wormholes for interstellar travel.",
+      "price": 9.99,
+      "category": 11,
+      "rating": 4.2,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 43,
+   "model": "products.product",
+   "fields": {
+      "name": "The Road",
+      "author": "Cormac McCarthy",
+      "description": "A father and son journey through a post-apocalyptic America, facing dangers and moral dilemmas as they struggle to survive.",
+      "price": 11.99,
+      "category": 12,
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 44,
+   "model": "products.product",
+   "fields": {
+      "name": "Station Eleven",
+      "author": "Emily St. John Mandel",
+      "description": "Set in the Great Lakes region after a fictional swine flu pandemic has devastated the world, following a traveling Shakespeare troupe.",
+      "price": 12.99,
+      "category": 12,
+      "rating": 4.1,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 45,
+   "model": "products.product",
+   "fields": {
+      "name": "The Windup Girl",
+      "author": "Paolo Bacigalupi",
+      "description": "In a future Thailand, a calorie company man and a genetically modified woman become pawns in a larger political game.",
+      "price": 13.99,
+      "category": 12,
+      "rating": 3.9,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 46,
+   "model": "products.product",
+   "fields": {
+      "name": "ane Eyre",
+      "author": "Charlotte Bront�",
+      "description": "A Gothic romance following the life of its eponymous heroine, from her troubled childhood to her relationship with the mysterious Mr. Rochester.",
+      "price": 8.99,
+      "category": 7,
+      "rating": 4.7,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 47,
+   "model": "products.product",
+   "fields": {
+      "name": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "description": "A philosophical novel about a man who sells his soul to maintain his youth and beauty while his portrait ages.",
+      "price": 7.99,
+      "category": 7,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 48,
+   "model": "products.product",
+   "fields": {
+      "name": "Moby-Dick",
+      "author": "Herman Melville",
+      "description": "An epic tale of obsession and adventure, following Captain Ahab's quest for revenge against a giant white whale.",
+      "price": 9.99,
+      "category": 7,
+      "rating": 4.4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 49,
+   "model": "products.product",
+   "fields": {
+      "name": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": "A dystopian novel set in a genetically engineered future where society is divided into castes and individuality is suppressed.",
+      "price": 10.99,
+      "category": 8,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 50,
+   "model": "products.product",
+   "fields": {
+      "name": "One Hundred Years of Solitude",
+      "author": "Gabriel Garc�a M�rquez",
+      "description": "A multi-generational saga of the Buend�a family, blending magical realism with Colombian history.",
+      "price": 11.99,
+      "category": 8,
+      "rating": 4.4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 51,
+   "model": "products.product",
+   "fields": {
+      "name": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "description": "A powerful novel depicting a family's journey during the Great Depression and the Dust Bowl migration.",
+      "price": 9.99,
+      "category": 8,
+      "rating": 4.6,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 52,
+   "model": "products.product",
+   "fields": {
+      "name": "The Iliad",
+      "author": "Homer",
+      "description": "An ancient Greek epic poem set during the Trojan War, focusing on the wrath of Achilles.",
+      "price": 7.99,
+      "category": 9,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 53,
+   "model": "products.product",
+   "fields": {
+      "name": "Oedipus Rex",
+      "author": "Sophocles",
+      "description": "A Greek tragedy that tells the story of King Oedipus and his tragic fall from grace.",
+      "price": 6.99,
+      "category": 9,
+      "rating": 4.4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 54,
+   "model": "products.product",
+   "fields": {
+      "name": "The Art of War",
+      "author": "Sun Tzu",
+      "description": "An ancient Chinese military treatise filled with strategy and wisdom applicable beyond warfare.",
+      "price": 8.99,
+      "category": 9,
+      "rating": 4.7,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 55,
+   "model": "products.product",
+   "fields": {
+      "name": "Beloved",
+      "author": "Toni Morrison",
+      "description": "A powerful and haunting novel about a former slave and the lingering trauma of slavery in 19th-century America.",
+      "price": 11.99,
+      "category": 4,
+      "rating": 4.2,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 56,
+   "model": "products.product",
+   "fields": {
+      "name": "One Hundred Years of Solitude",
+      "author": "Gabriel Garc�a M�rquez",
+      "description": "A multi-generational saga of the Buend�a family, blending magical realism with Colombian history.",
+      "price": 12.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 57,
+   "model": "products.product",
+   "fields": {
+      "name": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "A classic coming-of-age story following the experiences of Holden Caulfield in New York City.",
+      "price": 9.99,
+      "category": 4,
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 58,
+   "model": "products.product",
+   "fields": {
+      "name": "All the Light We Cannot See",
+      "author": "Anthony Doerr",
+      "description": "A blind French girl and a German boy's paths collide in occupied France during World War II.",
+      "price": 13.99,
+      "category": 5,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 59,
+   "model": "products.product",
+   "fields": {
+      "name": "The Nightingale",
+      "author": "Kristin Hannah",
+      "description": "Two sisters in France must make life-altering decisions as they struggle for survival during World War II.",
+      "price": 12.99,
+      "category": 5,
+      "rating": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 60,
+   "model": "products.product",
+   "fields": {
+      "name": "Outlander",
+      "author": "Diana Gabaldon",
+      "description": "A World War II nurse is transported back in time to 18th-century Scotland, where she falls in love with a Highland warrior.",
+      "price": 11.99,
+      "category": 5,
+      "rating": 4.2,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 61,
+   "model": "products.product",
+   "fields": {
+      "name": "The Underground Railroad",
+      "author": "Colson Whitehead",
+      "description": "A reimagining of the Underground Railroad as a literal subway system for escaping slaves in the antebellum South.",
+      "price": 10.99,
+      "category": 6,
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 62,
+   "model": "products.product",
+   "fields": {
+      "name": "The Nickel Boys",
+      "author": "Colson Whitehead",
+      "description": "Based on a real reform school, this novel follows two boys navigating the horrors of a Jim Crow-era juvenile reformatory.",
+      "price": 11.99,
+      "category": 6,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 63,
+   "model": "products.product",
+   "fields": {
+      "name": "Little Fires Everywhere",
+      "author": "Celeste Ng",
+      "description": "The intertwined fates of the picture-perfect Richardson family and an enigmatic mother and daughter who upend their lives.",
+      "price": 10.99,
+      "category": 6,
+      "rating": 4.1,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 64,
+   "model": "products.product",
+   "fields": {
+      "name": "The Postman Always Rings Twice",
+      "author": "James M. Cain",
+      "description": "A drifter conspires with a married woman to murder her husband in this classic of hard-boiled fiction.",
+      "price": 8.99,
+      "category": 1,
+      "rating": 4.1,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 65,
+   "model": "products.product",
+   "fields": {
+      "name": "The Long Goodbye",
+      "author": "Raymond Chandler",
+      "description": "Private detective Philip Marlowe gets involved with a drunk, his beautiful wife, and murder in this complex noir tale.",
+      "price": 9.99,
+      "category": 1,
+      "rating": 4.3,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 66,
+   "model": "products.product",
+   "fields": {
+      "name": "The Killer Inside Me",
+      "author": "Jim Thompson",
+      "description": "A chilling first-person narrative of a deputy sheriff's descent into violence and madness.",
+      "price": 7.99,
+      "category": 1,
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 67,
+   "model": "products.product",
+   "fields": {
+      "name": "And Then There Were None",
+      "author": "Agatha Christie",
+      "description": "Ten strangers are lured to an isolated island and accused of past crimes as they start to die one by one.",
+      "price": 8.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 68,
+   "model": "products.product",
+   "fields": {
+      "name": "The Name of the Rose",
+      "author": "Umberto Eco",
+      "description": "A medieval monk investigates a series of murders at a monastery using the analytical methods of Sherlock Holmes.",
+      "price": 11.99,
+      "category": 2,
+      "rating": 4.2,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 69,
+   "model": "products.product",
+   "fields": {
+      "name": "In the Woods",
+      "author": "Tana French",
+      "description": "A detective returns to his hometown to solve a murder case linked to his own traumatic past.",
+      "price": 10.99,
+      "category": 2,
+      "rating": 3.9,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 70,
+   "model": "products.product",
+   "fields": {
+      "name": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "description": "A woman becomes entangled in a missing person's investigation that promises to send shockwaves through her life.",
+      "price": 9.99,
+      "category": 3,
+      "rating": 3.9,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 71,
+   "model": "products.product",
+   "fields": {
+      "name": "Before I Go to Sleep",
+      "author": "S.J. Watson",
+      "description": "An amnesiac attempts to reconstruct her past only to discover dark secrets in this psychological thriller.",
+      "price": 8.99,
+      "category": 3,
+      "rating": 3.9,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+},
+ {
+   "pk": 72,
+   "model": "products.product",
+   "fields": {
+      "name": "The Firm",
+      "author": "John Grisham",
+      "description": "A young lawyer joins a prestigious firm only to discover it's involved in illegal activities.",
+      "price": 10.99,
+      "category": 3,
+      "rating": 4,
+      "image_url": "https://m.media-amazon.com/images/I/51ZOSQ3ywEL.null_SY250_.jpg",
+      "image": "the_firm.jpg"
+   }
+}
+]
