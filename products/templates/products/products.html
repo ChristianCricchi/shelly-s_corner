@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -7,12 +8,34 @@
         </div>
     </div>
 {% endblock %}
+
 {% block content %}
     <div class="container">
-        <div class="row">
-            <div class="col">
-                {{ products }}
-            </div>
-        </div>
+        <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
+            {% for product in products %}
+            <a href="" class="product-card d-flex flex-column">
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        {% if product.image %}
+                        <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
+                        {% else %}
+                        <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="{{ product.name }}">
+                        {% endif %}
+                      <div class="card-body product-padding">
+                        <p class="card-title">{{ product.name }}</h5>
+                        <p class="card-text">£{{ product.price }}</p>
+                      </div>
+                      <div class="card-footer border-0 bg-transparent mt-auto product-padding">
+                        {% if product.rating %}
+                        <small class="text-body-secondary">{{ product.rating }}</small>
+                        {% else %}
+                        <small class="text-body-secondary"> No rating</small>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+            </a>
+            {% endfor %}
+          </div>
     </div>
 {% endblock %}

@@ -103,27 +103,27 @@
                         </li>
                     </ul>
                 </div>    
-                
             </div>
-            <div class="row">
-                <nav class="navbar navbar-expand-lg w-100">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg w-100">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                       
-                      {% include 'includes/mobile-top-header.html' %}
-                      {% include 'includes/main-nav.html' %}
-                </nav>
-            </div>
-            <div class="row text-center">
-                <div class="col">
-                    <p class="my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</p>                
-                </div>            
-            </div>
-        </div>  
+                    {% include 'includes/mobile-top-header.html' %}
+                    {% include 'includes/main-nav.html' %}
+            </nav>
+        </div>
     </header>
-   
-
+     
+    <div class="container-fluid" id="free-delivery-banner">
+        <div class="row text-center">
+            <div class="col">
+                <p class="my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</p>                
+            </div>            
+        </div>
+    </div>  
+    
     {% if messages %}
     <div class="message-container"></div>
     {% endif %}
