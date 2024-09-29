@@ -8,13 +8,13 @@
                 </div>
                 <a class="footer-quick-link" href="{% url 'products' %}">All Products</a>
                 <br>
-                <a class="footer-quick-link" href="">1</a>
+                <a class="footer-quick-link" href="{% url 'products' %}?category=noir,mystery,thriller">Crime</a>
                 <br>
-                <a class="footer-quick-link" href="">2</a>
+                <a class="footer-quick-link" href="{% url 'products' %}?category=literacy,historical,contemporary">Fiction</a>
                 <br>
-                <a class="footer-quick-link" href="">3</a>
+                <a class="footer-quick-link" href="{% url 'products' %}?category=19th century,20th century,ancient">Classic</a>
                 <br>
-                <a class="footer-quick-link" href="">4</a>
+                <a class="footer-quick-link" href="{% url 'products' %}?category=hardscifi,spaceopera,dystopia">Science</a>
             </div>
             <div class="col-12 col-md-4">
                 <p class="footer-heading mt-md-0 mt-4">Contact Us</p>

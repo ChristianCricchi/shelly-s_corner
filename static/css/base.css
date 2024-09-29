@@ -15,7 +15,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fff;
+    color: green;
 }
 
 .btn-primary {
@@ -31,7 +31,7 @@ body {
     padding: 1rem 1.3rem;
 }
 #main-nav {
-    background-color: #415A77;
+    background-color:#415A77;
     --bs-navbar-color: #fff;
     --bs-navbar-hover-color: #d5d5d5;
     --bs-navbar-active-color: #d5d5d5;

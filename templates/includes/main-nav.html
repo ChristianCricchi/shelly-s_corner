@@ -1,4 +1,4 @@
-<div class="collapse navbar-collapse" id="main-nav"></div>
+<div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item">
             <a class="nav-link mr-5" href="{% url 'home' %}">Home</a>
@@ -23,10 +23,10 @@
                 Crime
             </a>
             <div class="dropdown-menu" aria-labelledby="crime-link">
-                <a href="#" class="dropdown-item">Noir</a>
-                <a href="#" class="dropdown-item">Mystery</a>
-                <a href="#" class="dropdown-item">Thriller</a>
-                <a href="#" class="dropdown-item">Shop full range</a>
+                <a href="{% url 'products' %}?category=noir" class="dropdown-item">Noir</a>
+                <a href="{% url 'products' %}?category=mystery" class="dropdown-item">Mystery</a>
+                <a href="{% url 'products' %}?category=thriller" class="dropdown-item">Thriller</a>
+                <a href="{% url 'products' %}?category=noir,mystery,thriller" class="dropdown-item">Shop full range</a>
             </div>
         </li>
 
@@ -36,10 +36,10 @@
                 Fiction
             </a>
             <div class="dropdown-menu" aria-labelledby="fiction-link">
-                <a href="#" class="dropdown-item">Literary</a>
-                <a href="#" class="dropdown-item">Historical</a>
-                <a href="#" class="dropdown-item">Contemporary</a>
-                <a href="#" class="dropdown-item">Shop full range</a>
+                <a href="{% url 'products' %}?category=literacy" class="dropdown-item">Literacy</a>
+                <a href="{% url 'products' %}?category=historical" class="dropdown-item">Historical</a>
+                <a href="{% url 'products' %}?category=contemporary" class="dropdown-item">Contemporary</a>
+                <a href="{% url 'products' %}?category=literary,historical,contemporary" class="dropdown-item">Shop full range</a>
             </div>
         </li>
 
@@ -49,10 +49,10 @@
                 Classic
             </a>
             <div class="dropdown-menu" aria-labelledby="classic-link">
-                <a href="#" class="dropdown-item">19th Century</a>
-                <a href="#" class="dropdown-item">20th Century</a>
-                <a href="#" class="dropdown-item">Ancient</a>
-                <a href="#" class="dropdown-item">Shop full range</a>
+                <a href="{% url 'products' %}?category=19th century" class="dropdown-item">19th Century</a>
+                <a href="{% url 'products' %}?category=20th century" class="dropdown-item">20th Century</a>
+                <a href="{% url 'products' %}?category=ancient" class="dropdown-item">Ancient</a>
+                <a href="{% url 'products' %}?category=19thcentury,20thcentury,ancient" class="dropdown-item">Shop full range</a>
             </div>
         </li>
 
@@ -62,10 +62,10 @@
                 Science
             </a>
             <div class="dropdown-menu" aria-labelledby="science-link">
-                <a href="#" class="dropdown-item">HardSciFi</a>
-                <a href="#" class="dropdown-item">SpaceOpera</a>
-                <a href="#" class="dropdown-item">Dystopia</a>
-                <a href="#" class="dropdown-item">Shop full range</a>
+                <a href="{% url 'products' %}?category=hardscifi" class="dropdown-item">HardSciFi</a>
+                <a href="{% url 'products' %}?category=spaceopera" class="dropdown-item">SpaceOpera</a>
+                <a href="{% url 'products' %}?category=dystopia" class="dropdown-item">Dystopia</a>
+                <a href="{% url 'products' %}?category=hardscifi,spaceopera,dystopia" class="dropdown-item">Shop full range</a>
             </div>
         </li>
 

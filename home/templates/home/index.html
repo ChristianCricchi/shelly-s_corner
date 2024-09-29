@@ -13,24 +13,22 @@
     </div>
 </div>
 
-
 <div class="container">
     <div class="row row-cols-1 row-cols-lg-2">
-
         <div class="col mb-4">
-            <a href="#">
+            <a href="{% url 'products' %}?category=noir,mystery,thriller">
                 <div class="category-box">
                     <div class="category-image" style="background-image: url('../../../media/scLogo.png');"></div>
-                    <button class="btn btn-lg btn-primary category-button">1</button>
+                    <button class="btn btn-lg btn-primary category-button">Crime</button>
                 </div>
             </a>
         </div>
 
         <div class="col mb-4">
-            <a href="#">
+            <a href="{% url 'products' %}?category=literacy,historical,contemporary">
                 <div class="category-box">
-                    <div class="category-image" style="background-image: url();"></div>
-                    <button class="btn btn-lg btn-primary category-button">2</button>
+                    <div class="category-image" style="background-image: url('../../../media/hero.jpg');"></div>
+                    <button class="btn btn-lg btn-primary category-button">Fiction</button>
                 </div>
             </a>
         </div>
@@ -39,19 +37,19 @@
     <div class="row row-cols-1 row-cols-lg-2">
         
         <div class="col mb-4">
-            <a href="#">
+            <a href="{% url 'products' %}?category=19th century,20th century,ancient">
                 <div class="category-box">
-                    <div class="category-image" style="background-image: url();"></div>
-                    <button class="btn btn-lg btn-primary category-button">3</button>
+                    <div class="category-image" style="background-image: url('../../../media/hero.jpg');"></div>
+                    <button class="btn btn-lg btn-primary category-button">Classic</button>
                 </div>
             </a>
         </div>
 
         <div class="col mb-4">
-            <a href="#">
+            <a href="{% url 'products' %}?category=hardscifi,spaceopera,dystopia">
                 <div class="category-box">
-                    <div class="category-image" style="background-image: url();"></div>
-                    <button class="btn btn-lg btn-primary category-button">4</button>
+                    <div class="category-image" style="background-image: url('../../../media/hero.jpg');"></div>
+                    <button class="btn btn-lg btn-primary category-button">Science</button>
                 </div>
             </a>
         </div>
