@@ -7,7 +7,7 @@
     <div class="container-fluid py-5">
         <div class="home-text-background container col-md-8">
             <h1 class="display-5 fw-bold text-uppercase home-background-text-shadow">Welcome!</h1>
-            <p class="fs-4 home-background-text-shadow">Scrivere messaggio di benvenuto!</p>
+            <p class="fs-4 home-background-text-shadow">"Beware; for I am fearless, and therefore powerful." Mary Shelly, Frankenstain!</p>
             <a href="{% url 'products' %}" class="btn btn-primary btn-lg text-uppercase mt-1">Shop Now</a>
         </div>
     </div>
@@ -16,41 +16,41 @@
 <!-- Categories container -->
 <div class="container">
     <div class="row row-cols-1 row-cols-lg-2">
-        <!-- Crime category -->
+        <!-- Shop Kitchen category -->
         <div class="col mb-4">
-            <a href="">
+            <a href="{% url 'products' %}?category=cooking,kettles,cutlery">
                 <div class="category-box">
                     <div class="category-image kitchen-category"></div>
-                    <div class="btn btn-lg btn-primary category-button">Crime</div>
+                    <div class="btn btn-lg btn-primary category-button">1</div>
                 </div>
             </a>
         </div>
-        <!-- Fiction Science category -->
+        <!-- Shop Living Room category -->
         <div class="col mb-4">
-            <a href="">
+            <a href="{% url 'products' %}?category=chairs,televisions,tables">
                 <div class="category-box">
                     <div class="category-image living-room-category"></div>
-                    <div class="btn btn-lg btn-primary category-button">Fiction</div>
+                    <div class="btn btn-lg btn-primary category-button">2</div>
                 </div>
             </a>
         </div>
     </div>
     <div class="row row-cols-1 row-cols-lg-2">
-        <!-- Classic category -->
+        <!-- Shop Bedroom category -->
         <div class="col mb-4">
-            <a href="">
+            <a href="{% url 'products' %}?category=sheets,wardrobes,pillows">
                 <div class="category-box">
                     <div class="category-image bedroom-category"></div>
-                    <div class="btn btn-lg btn-primary category-button">Classic</div>
+                    <div class="btn btn-lg btn-primary category-button">3</div>
                 </div>
             </a>
         </div>
-        <!-- Technology category -->
+        <!-- Shop Bathroom category -->
         <div class="col mb-4">
-            <a href="">
+            <a href="{% url 'products' %}?category=towels,mirrors,accessories">
                 <div class="category-box">
                     <div class="category-image bathroom-category"></div>
-                    <div class="btn btn-lg btn-primary category-button">Technology</div>
+                    <div class="btn btn-lg btn-primary category-button">4</div>
                 </div>
             </a>
         </div>

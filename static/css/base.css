@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body {
     font-family: 'Outfit', Helvetica, sans-serif;
+}
+
+.page-heading {
+    margin-top: 1.3rem !important;
+    margin-bottom: 1.5rem !important;
+    text-transform: uppercase;
+}
+.home-background {
+    background: url(../../media/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.home-text-background {
+    background-color: rgba(65, 90, 119, 0.8);
+    border-radius: 1rem;
+    padding: 1rem 1.3rem;
 }
 #main-nav {
     background-color: #415A77;
@@ -8,20 +27,25 @@ body {
     --bs-navbar-hover-color: #d5d5d5;
     --bs-navbar-active-color: #d5d5d5;
 }
+
 #free-delivery-banner {
     background-color: #0D1B2A;
     color: #fff;
 }
+
 .navbar {
     --bs-navbar-padding-y: 0rem;
 }
+
 .product-card {
     text-decoration: none;
 }
+
 .product-card:hover .card-body p,
 .product-card:hover .card-footer small {
     text-decoration: underline;
 }
+
 .product-padding {
     padding: 1rem 0 0 0;
 }
@@ -30,10 +54,12 @@ body {
     width: 13rem;
     height: auto;
 }
+
 .logo-small {
     width: 10rem;
     height: auto;
 }
+
 #topnav {
     margin-bottom: 0.7rem;
 }
