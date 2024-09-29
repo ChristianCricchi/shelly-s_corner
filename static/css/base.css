@@ -25,3 +25,15 @@ body {
 .product-padding {
     padding: 1rem 0 0 0;
 }
+
+.logo {
+    width: 13rem;
+    height: auto;
+}
+.logo-small {
+    width: 10rem;
+    height: auto;
+}
+#topnav {
+    margin-bottom: 0.7rem;
+}
