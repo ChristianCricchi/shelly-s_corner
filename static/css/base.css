@@ -10,7 +10,8 @@ body {
     text-transform: uppercase;
 }
 .home-background {
-    background: url(../../media/hero.jpg);
+    background: url('../../media/hero.jpg');
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,4 +101,27 @@ body {
 }
 .hr-footer {
     width: 7rem;
+}
+
+.category-box {
+    position: relative;
+}
+.category-image {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #dee2e6;
+}
+.category-button {
+    position: absolute;
+    bottom: 1.8rem;
+    left: 2rem;
+    width: 50%;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+}
+.category-box:hover .category-button {
+    background-color: #070f17;
+    color: white;
 }

@@ -8,49 +8,50 @@
         <div class="home-text-background container col-md-8">
             <h1 class="display-5 fw-bold text-uppercase home-background-text-shadow">Welcome!</h1>
             <p class="fs-4 home-background-text-shadow">"Beware; for I am fearless, and therefore powerful." Mary Shelly, Frankenstain!</p>
-            <a href="{% url 'products' %}" class="btn btn-primary btn-lg text-uppercase mt-1" type="button">Shop Now</a>
+            <a href="{% url 'products' %}" class="btn btn-primary btn-lg text-uppercase mt-1">Shop Now</a>
         </div>
     </div>
 </div>
 
-<!-- Categories container -->
+
 <div class="container">
     <div class="row row-cols-1 row-cols-lg-2">
-        <!-- Shop Kitchen category -->
+
         <div class="col mb-4">
-            <a href="{% url 'products' %}?category=cooking,kettles,cutlery">
+            <a href="#">
                 <div class="category-box">
-                    <div class="category-image kitchen-category"></div>
-                    <div class="btn btn-lg btn-primary category-button">1</div>
+                    <div class="category-image" style="background-image: url('../../../media/scLogo.png');"></div>
+                    <button class="btn btn-lg btn-primary category-button">1</button>
                 </div>
             </a>
         </div>
-        <!-- Shop Living Room category -->
+
         <div class="col mb-4">
-            <a href="{% url 'products' %}?category=chairs,televisions,tables">
+            <a href="#">
                 <div class="category-box">
-                    <div class="category-image living-room-category"></div>
-                    <div class="btn btn-lg btn-primary category-button">2</div>
+                    <div class="category-image" style="background-image: url();"></div>
+                    <button class="btn btn-lg btn-primary category-button">2</button>
                 </div>
             </a>
         </div>
     </div>
+
     <div class="row row-cols-1 row-cols-lg-2">
-        <!-- Shop Bedroom category -->
+        
         <div class="col mb-4">
-            <a href="{% url 'products' %}?category=sheets,wardrobes,pillows">
+            <a href="#">
                 <div class="category-box">
-                    <div class="category-image bedroom-category"></div>
-                    <div class="btn btn-lg btn-primary category-button">3</div>
+                    <div class="category-image" style="background-image: url();"></div>
+                    <button class="btn btn-lg btn-primary category-button">3</button>
                 </div>
             </a>
         </div>
-        <!-- Shop Bathroom category -->
+
         <div class="col mb-4">
-            <a href="{% url 'products' %}?category=towels,mirrors,accessories">
+            <a href="#">
                 <div class="category-box">
-                    <div class="category-image bathroom-category"></div>
-                    <div class="btn btn-lg btn-primary category-button">4</div>
+                    <div class="category-image" style="background-image: url();"></div>
+                    <button class="btn btn-lg btn-primary category-button">4</button>
                 </div>
             </a>
         </div>
