@@ -16,6 +16,14 @@ body {
     background-size: cover;
     color: #fff;
 }
+
+.btn-primary {
+    --bs-btn-bg: #0D1B2A;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: #070f17;
+    --bs-btn-hover-border-color: none;
+}
+
 .home-text-background {
     background-color: rgba(65, 90, 119, 0.8);
     border-radius: 1rem;
