@@ -25,8 +25,17 @@ body {
     --bs-btn-hover-border-color: none;
 }
 
+.btn-outline-primary {
+    --bs-btn-color:#0D1B2A;;
+    --bs-btn-border-color: #0D1B2A;
+    --bs-btn-hover-bg: #0D1B2A;
+    --bs-btn-hover-border-color: #0D1B2A;
+    --bs-btn-active-bg: #0D1B2A;
+    --bs-btn-active-border-color: #0D1B2A;
+}
+
 .home-text-background {
-    background-color: rgba(65, 90, 119, 0.8);
+    background-color: white;
     border-radius: 1rem;
     padding: 1rem 1.3rem;
 }

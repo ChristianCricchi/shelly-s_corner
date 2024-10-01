@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load custom_filters %}
 
 {% block page_header %}
     <div class="container header-container">
@@ -10,36 +11,57 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container">
-      <div class="row">
-        <h1 class="text-center page-heading">Products</h1>
-      </div>
-        <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
-            {% for product in products %}
-            <a href="{% url 'product_detail' product.id %}" class="product-card d-flex flex-column">
-              <div class="col">
-                  <div class="card h-100 border-0">
-                    {% if product.image %}
-                    <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
-                    {% else %}
-                    <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="{{ product.name }}">
-                    {% endif %}
-                  <div class="card-body product-padding">
-                    <p class="card-title">{{ product.name }}</h5>
-                    <p class="card-text">£{{ product.price }}</p>
-                  </div>
-                  <div class="card-footer border-0 bg-transparent mt-auto product-padding">
-                    {% if product.rating %}
-                    <small class="text-body-secondary">{{ product.rating }}</small>
-                    {% else %}
-                    <small class="text-body-secondary"> No rating</small>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-          </a>
-          {% endfor %}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-center page-heading">Products</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-center pb-3">
+      {% for c in current_categories %}
+      <a type="button" class="btn btn-sm btn-outline-primary" href="{% url 'products' %}?category={{ c.name }}">{{ c.friendly_name }}</a>
+                {% endfor %}
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
+    {% for product in products %}
+    <a href="{% url 'product_detail' product.id %}" class="product-card d-flex flex-column">
+      <div class="col">
+        <div class="card h-100 border-0">
+          {% if product.image %}
+          <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
+          {% else %}
+          <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="{{ product.name }}">
+          {% endif %}
+          <div class="card-body product-padding">
+            <p class="card-title">{{ product.name }}</p>
+            <p class="card-text">£{{ product.price }}
+              {% if product.category %}
+              <br>
+                  {% if product.category.name|in_category:"cooking,kettles,cutlery" %}
+                  <i class="fa-solid fa-utensils"></i> Kitchen
+                  {% elif product.category.name|in_category:"chairs,televisions,tables" %}
+                  <i class="fa-solid fa-couch"></i> Living Room
+                  {% elif product.category.name|in_category:"sheets,wardrobes,pillows" %}
+                  <i class="fa-solid fa-bed"></i> Bedroom
+                  {% elif product.category.name|in_category:"towels,mirrors,accessories" %}
+                  <i class="fa-solid fa-bath"></i> Bathroom
+                  {% endif %}
+              {% endif %}
+          </p>
+          </div>
+          <div class="card-footer border-0 bg-transparent mt-auto product-padding">
+            {% if product.rating %}
+            <small class="text-body-secondary"><i class="fa-solid fa-star"></i> {{ product.rating }}</small>
+            {% else %}
+            <small class="text-body-secondary"> No rating</small>
+            {% endif %}
+          </div>
         </div>
       </div>
+    </a>
+    {% endfor %}
   </div>
-  {% endblock %}
+</div>
+{% endblock %}
