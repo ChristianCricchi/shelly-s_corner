@@ -14,23 +14,39 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <h1 class="text-center page-heading">Products</h1>
+      <h1 class="text-center page-heading">Books</h1>
     </div>
   </div>
-  <div class="row pb-3">
+  <div class="row mb-3">
     <div class="col text-center ">
       {% for c in current_categories %}
       <a type="button" class="btn btn-sm btn-outline-primary" href="{% url 'products' %}?category={{ c.name }}">{{ c.friendly_name }}</a>
-                {% endfor %}
+      {% endfor %}
     </div>
   </div>
 
-  <div class="row">
+  <div class="row mb-3">
     <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
-      Test Test 1st Column
+      <select id="sort-selector" class="custom-select custom-select-sm">
+        <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
+        <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
+        <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
+        <option value="rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>Rating (low to high)</option>
+        <option value="rating_desc" {% if current_sorting == 'rating_desc' %}selected{% endif %}>Rating (high to low)</option>
+        <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
+        <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
+        <option value="category_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Category (A-Z)</option>
+        <option value="category_desc" {% if current_sorting == 'category_desc' %}selected{% endif %}>Category (Z-A)</option>
+      </select>
     </div>
+  </div>
     <div class="col-12 col-md-6 order-md-first text-center text-md-start">
-      Test Test 2nd Column
+      <p class="text-muted mt-3">
+        {% if search_term or current_categories or current_sorting != 'None_None' %}
+            <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
+        {% endif %}
+        {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
+      </p>
     </div>
   </div>
 
@@ -49,14 +65,14 @@
             <p class="card-text">£{{ product.price }}
               {% if product.category %}
               <br>
-                  {% if product.category.name|in_category:"cooking,kettles,cutlery" %}
-                  <i class="fa-solid fa-utensils"></i> Kitchen
-                  {% elif product.category.name|in_category:"chairs,televisions,tables" %}
-                  <i class="fa-solid fa-couch"></i> Living Room
-                  {% elif product.category.name|in_category:"sheets,wardrobes,pillows" %}
-                  <i class="fa-solid fa-bed"></i> Bedroom
-                  {% elif product.category.name|in_category:"towels,mirrors,accessories" %}
-                  <i class="fa-solid fa-bath"></i> Bathroom
+                  {% if product.category.name|in_category:"noir,mystery,thriller" %}
+                  <i class="fa-solid fa-book"></i> Crime
+                  {% elif product.category.name|in_category:"literacy,historical,contemporary" %}
+                  <i class="fa-solid fa-book"></i> Fiction
+                  {% elif product.category.name|in_category:"19th century,20th century,ancient" %}
+                  <i class="fa-solid fa-book"></i> Classic
+                  {% elif product.category.name|in_category:"hadrscifi,spaceopera,dystopia" %}
+                  <i class="fa-solid fa-book"></i> Science
                   {% endif %}
               {% endif %}
           </p>
