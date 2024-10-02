@@ -34,14 +34,14 @@
                     <p class="lead mb-0 text-left font-weight-bold">£{{ product.price }}</p>
                     
                     <br>
-                    {% if product.category.name|in_category:"noir,mistery,thriller" %}
-                    <i class="fa-solid fa-utensils"></i> Crime
-                    {% elif product.category.name|in_category:"literacy,historical,contemporary %}
-                    <i class="fa-solid fa-couch"></i> Fiction
+                    {% if product.category.name|in_category:"noir,mystery,thriller" %}
+                    <i class="fa-solid fa-book"></i> Crime
+                    {% elif product.category.name|in_category:"literacy,historical,contemporary" %}
+                    <i class="fa-solid fa-book"></i> Fiction
                     {% elif product.category.name|in_category:"19th century,20th century,ancient" %}
-                    <i class="fa-solid fa-bed"></i> Classic
+                    <i class="fa-solid fa-book"></i> Classic
                     {% elif product.category.name|in_category:"hardscifi,spaceopera,dystopia" %}
-                    <i class="fa-solid fa-bath"></i> Science
+                    <i class="fa-solid fa-book"></i> Science
                     {% endif %}
                     {% if product.rating %}
                     <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
