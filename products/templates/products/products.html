@@ -17,13 +17,23 @@
       <h1 class="text-center page-heading">Products</h1>
     </div>
   </div>
-  <div class="row">
-    <div class="col text-center pb-3">
+  <div class="row pb-3">
+    <div class="col text-center ">
       {% for c in current_categories %}
       <a type="button" class="btn btn-sm btn-outline-primary" href="{% url 'products' %}?category={{ c.name }}">{{ c.friendly_name }}</a>
                 {% endfor %}
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
+      Test Test 1st Column
+    </div>
+    <div class="col-12 col-md-6 order-md-first text-center text-md-start">
+      Test Test 2nd Column
+    </div>
+  </div>
+
   <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
     {% for product in products %}
     <a href="{% url 'product_detail' product.id %}" class="product-card d-flex flex-column">
