@@ -66,13 +66,13 @@
               {% if product.category %}
               <br>
                   {% if product.category.name|in_category:"noir,mystery,thriller" %}
-                  <i class="fa-solid fa-book"></i> Crime
+                  <i class="fa-solid fa-book"></i> {{ product.category.friendly_name }}
                   {% elif product.category.name|in_category:"literacy,historical,contemporary" %}
-                  <i class="fa-solid fa-book"></i> Fiction
+                  <i class="fa-solid fa-book"></i> {{ product.category.friendly_name }}
                   {% elif product.category.name|in_category:"19th century,20th century,ancient" %}
-                  <i class="fa-solid fa-book"></i> Classic
+                  <i class="fa-solid fa-book"></i> {{ product.category.friendly_name }}
                   {% elif product.category.name|in_category:"hadrscifi,spaceopera,dystopia" %}
-                  <i class="fa-solid fa-book"></i> Science
+                  <i class="fa-solid fa-book"></i> {{ product.category.friendly_name }}
                   {% endif %}
               {% endif %}
           </p>
