@@ -157,3 +157,9 @@ body {
 .custom-toast {
     overflow: visible;
 }
+
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
