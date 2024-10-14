@@ -35,7 +35,7 @@ card.addEventListener('change', function (event) {
     var errorDiv = document.getElementById('card-errors');
     if (event.error) {
         var html = `
-            <spanrole="alert">
+            <span role="alert">
                 <i class="fas fa-times"></i>
             </span>
             <span>${event.error.message}</span>
