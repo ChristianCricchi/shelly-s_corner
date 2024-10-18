@@ -1,0 +1,1 @@
+web: gunicorn shelly-scorner.wsgi:application
