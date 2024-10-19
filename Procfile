@@ -1,1 +1,1 @@
-web: gunicorn shelly-scorner.wsgi:application
+web: gunicorn shellys_corner.wsgi:application
