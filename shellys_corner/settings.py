@@ -29,12 +29,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-)ev$30jp5j3#a26_due$$7w$*(^uax=ok#7r&s52u9@_u^2tpg'
 
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = ['8000-christiancr-shellyscorn-cf2szshhdh1.ws.codeinstitute-ide.net']
-ALLOWED_HOSTS = ['shellys-corner.herokuapp.com', '8000-christiancr-shellyscorn-cf2szshhdh1.ws.codeinstitute-ide.net']
-
+ALLOWED_HOSTS = [
+    'shellys-corner-5b60b12a8abf.herokuapp.com', 
+    '8000-christiancr-shellyscorn-cf2szshhdh1.ws.codeinstitute-ide.net',
+    'localhost',
+    'shellys-corner-5b60b12a8abf.herokuapp.com'
+]
 
 # Application definition
 
@@ -53,7 +57,7 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'checkout',
-     'profiles',
+    'profiles',
 
     # Other
     'crispy_forms',
