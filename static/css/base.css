@@ -107,6 +107,10 @@ p {
     color: #fff;
 }
 
+.search-bar {
+    --bs-border-radius: 0;
+}
+
 .navbar {
     --bs-navbar-padding-y: 0rem;
 }
@@ -137,7 +141,7 @@ p {
 }
 
 .logo {
-    width: 13rem;
+    width: 11rem;
     height: auto;
 }
 
@@ -146,9 +150,7 @@ p {
     height: auto;
 }
 
-#topnav {
-    margin-bottom: 0.7rem;
-}
+
 
 .footer {
     background-color: #0c1b2a;
