@@ -5,18 +5,22 @@
 
 <head>
     {% block meta %}
+    <!-- Meta -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="{% static 'SCfavicon.png' %}">
+    <meta name="description" content="In Home is a homeware store offering a range of goods or all areas of your home!">
+    <link rel="icon" type="image/x-icon" href="{{ MEDIA_URL }}SCfavicon.png">
     {% endblock %}
 
     {% block extra_meta %}
     {% endblock %}
 
     {% block corecss %}
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Base CSS -->
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
@@ -24,43 +28,34 @@
     {% endblock %}
 
     {% block corejs %}
-
+    <!-- Jquery -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
-    </script>
-
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/3581b492d4.js" crossorigin="anonymous"></script>
- 
-     <!-- Stripe -->
-     <script src="https://js.stripe.com/v3/"></script>
-
-    <!--script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-    </script>
-     </script> -->
+    <!-- Stripe -->
+    <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
 
-    <title>Shelly's Corner {% block extra_title %}{% endblock %}</title>
+    <title>In Home | Homeware Store</title>
 </head>
 
 <body>
+    <!-- Navigation -->
     <header class="container-fluid">
         <div id="topnav" class="row d-none d-lg-flex">
+            <!-- Search -->
             <div class="col-12 col-lg-4 my-auto text-lg-start">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
-                        <input class="form-control search-bar" type="text" name="q" placeholder="Search our site">
+                        <input class="form-control search-bar" type="text" name="q" placeholder="Search our site" aria-label="Search bar">
                         <div class="input-group-append">
-                            <button class="form-control btn btn-black" type="submit">
-                                <span class="icon">
+                            <button class="form-control btn btn-black" type="submit" aria-label="Submit search">
+                                <span class="icon" aria-hidden="true">
                                     <i class="fas fa-search"></i>
                                 </span>
                             </button>
@@ -68,26 +63,27 @@
                     </div>
                 </form>
             </div>
+            <!-- Logo -->
             <div class="col-12 col-lg-4 my-auto text-lg-center">
                 <a href="{% url 'home' %}" class="nav-link">
-                    <img src="{{ MEDIA_URL }}scLogo.png" alt="SC Logo" class="logo">
+                    <img src="{{ MEDIA_URL }}scLogo.png" alt="Inhome Logo" class="logo">
                 </a>
             </div>
+            <!-- My account and shopping bag -->
             <div class="col-12 col-lg-4 my-auto">
                 <ul class="list-inline text-center text-lg-end my-0">
                     <li class="nav-item list-inline-item dropdown pt-3">
-                        <a class="nav-link" href="#" id="user-options" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link" href="#" id="user-desktop-options" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <div class="text-center my-auto">
                                 <div><i class="fas fa-user fa-lg"></i></div>
                                 <p>My Account</p>
                             </div>
                         </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="user-options">
+                        <ul class="dropdown-menu" aria-labelledby="user-desktop-options">
                             {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                            <li><a class="dropdown-item" href="{% url 'add_product' %}">Product Management</a></li>
+                            {% if request.user.is_superuser %}
+                            <li><a class="dropdown-item" href="{% url 'add_product' %}">Add New Product</a></li>
                             {% endif %}
                             <li><a class="dropdown-item" href="{% url 'profile' %}">My Profile</a></li>
                             <li><a class="dropdown-item" href="{% url 'account_logout' %}">Logout</a></li>
@@ -103,70 +99,74 @@
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p>
                                     {% if grand_total %}
-                                        £{{ grand_total|floatformat:2 }}
-                                        {% else %}  
-                                        £0.00
-                                        {% endif %}    
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>    
+                                    £{{ grand_total|floatformat:2 }}
+                                    {% else %}
+                                    £0.00
+                                    {% endif %}
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
             </div>
-
-            <div class="row">
-                <nav class="navbar navbar-expand-lg w-100">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
-                        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button> 
-                    {% include 'includes/mobile-top-header.html' %}
-                    {% include 'includes/main-nav.html' %}
-                </nav>
-            </div>
+        </div>
+        <!-- Menu -->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg w-100">
+                <button class="navbar-toggler ms-2 p-0 ps-1" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Mobile nav bar -->
+                {% include 'includes/mobile-top-header.html' %}
+                <!-- Main menu -->
+                {% include 'includes/main-nav.html' %}
+            </nav>
+        </div>
     </header>
-     
+
+    <!-- Free delivery banner -->
     <div class="container-fluid" id="free-delivery-banner">
         <div class="row text-center">
             <div class="col">
-                <p class="my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</p>                
-            </div>            
+                <p class="my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</p>
+            </div>
         </div>
-    </div>  
-    
+    </div>
+
+    <!-- Messages -->
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
-            {% with message.level as level %}
-                {% if level == 40 %}
-                    {% include 'includes/toasts/toast_error.html' %}
-                {% elif level == 30 %}
-                        {% include 'includes/toasts/toast_warning.html' %}
-                {% elif level == 25 %}
-                    {% include 'includes/toasts/toast_success.html' %}
-                {% else %}
-                    {% include 'includes/toasts/toast_info.html' %}
-                {% endif %}
-            {% endwith %}
+        {% with message.level as level %}
+        {% if level == 40 %}
+        {% include 'includes/toasts/toast_error.html' %}
+        {% elif level == 30 %}
+        {% include 'includes/toasts/toast_warning.html' %}
+        {% elif level == 25 %}
+        {% include 'includes/toasts/toast_success.html' %}
+        {% else %}
+        {% include 'includes/toasts/toast_info.html' %}
+        {% endif %}
+        {% endwith %}
         {% endfor %}
     </div>
     {% endif %}
 
-    {% block page_header %}
-    {% endblock %}
-
+    <!-- Main block content -->
     <div class="main-content">
         {% block content %}
         {% endblock %}
     </div>
 
+    <!-- Footer -->
     {% include 'includes/footer.html' %}
 
     {% block postloadjs %}
-    <script type="text/javascript">
+    <!-- Toasts JS -->
+    <script>
         var toasts = document.querySelectorAll('.toast');
-        toasts.forEach(function(toast) {
+        toasts.forEach(function (toast) {
             var toastEl = new bootstrap.Toast(toast);
             toastEl.show();
         });
