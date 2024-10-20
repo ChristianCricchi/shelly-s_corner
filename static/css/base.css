@@ -256,7 +256,7 @@ p {
 /* Home Page */
 
 .home-background {
-    background: url(../../media/homemainimagenew.webp);
+    background: url(../../media/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,20 +281,17 @@ p {
     border: 1px solid #dee2e6;
 }
 
-.kitchen-category {
-    background-image: url(../../media/homekitchenimagenew.webp);
+.crime-category {
+    background-image: url('https://shellys-corner.s3.eu-north-1.amazonaws.com/media/hero.jpg');
 }
-
-.living-room-category {
-    background-image: url(../../media/homelivingroomimagenew.webp);
+.fiction-category {
+    background-image: url('https://shellys-corner.s3.eu-north-1.amazonaws.com/media/hero.jpg');
 }
-
-.bedroom-category {
-    background-image: url(../../media/homebedroomimagenew.webp);
+.classic-category {
+    background-image: url('https://shellys-corner.s3.eu-north-1.amazonaws.com/media/hero.jpg');
 }
-
-.bathroom-category {
-    background-image: url(../../media/homebathroomimagenew.webp);
+.science-category {
+    background-image: url('https://shellys-corner.s3.eu-north-1.amazonaws.com/media/hero.jpg');
 }
 
 .category-button {
