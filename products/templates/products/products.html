@@ -68,9 +68,8 @@
           </div>
           <div class="card-footer border-0 bg-transparent mt-auto product-padding">
             {% if product.rating %}
-            <small class="text-body-secondary"><i class="fa-solid fa-star rating-star"></i> {{ product.rating }}/5</small>
-            {% else %}
-            <small class="text-body-secondary"> No rating</small>
+            <p class="product-rating"><i class="fa-solid fa-star rating-star"></i> {{ product.rating }}/5</p>
+            <p class="product-rating"> No rating</p>
             {% endif %}
           </div>
         </div>

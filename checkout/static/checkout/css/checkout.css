@@ -48,20 +48,6 @@ select option[value=""] {
     color: #aab7c4 !important;
 }
 
-.form-field {
-    margin-bottom: 0.8rem;
-}
-
-.form-field label {
-    display: none;
-    visibility: hidden;
-    position: absolute;
-}
-
-.form-control {
-    appearance: menulist;
-}
-
 /* Overlay and spinner styling once order submit button is clicked */
 
 #loading-overlay {
@@ -82,3 +68,18 @@ select option[value=""] {
     margin: 0;
     height: 100%;
 }
+
+.form-field {
+    margin-bottom: 0.8rem;
+}
+
+.form-field label {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+}
+
+.form-control {
+    appearance: menulist;
+}
+
