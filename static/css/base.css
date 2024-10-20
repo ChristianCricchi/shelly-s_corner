@@ -143,13 +143,22 @@ body {
     border: 1px solid #dee2e6;
 }
 
+.crime-category {
+    background-image: url('https://shellys-corner.s3.eu-north-1.amazonaws.com/media/hero.jpg');
+}
+.fiction-room-category {
+    background-image: url('https://shellys-corner.s3.eu-north-1.amazonaws.com/media/hero.jpg');
+}
+.classic-category {
+    background-image: url('https://shellys-corner.s3.eu-north-1.amazonaws.com/media/hero.jpg');
+}
+.science-category {
+    background-image: url('https://shellys-corner.s3.eu-north-1.amazonaws.com/media/hero.jpg');
+}
+
 .category-button {
     position: absolute;
-    bottom: 1.8rem;
-    left: 2rem;
-    width: 50%;
-    transition: background-color 0.3s;
-    text-transform: uppercase;
+    bottom: 1.8rem;  text-transform: uppercase;
 }
 
 .category-box:hover .category-button {
