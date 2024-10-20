@@ -38,3 +38,6 @@ class Review(models.Model):
     rating = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(5)])
     submitted_by = models.ForeignKey(User, related_name='reviews', on_delete=models.CASCADE)
     date_submitted = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f'Review for {self.product} by {self.submitted_by}'
