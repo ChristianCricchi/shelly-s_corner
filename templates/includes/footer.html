@@ -1,11 +1,12 @@
+<!-- Footer container -->
 <footer class="container-fluid footer mt-4">
-    <div class="container">
-        <div class="row text-center pt-4 pb-4">
-            <div class="col-12 col-md-4">
-                <p class="footer-heading mt-md-0 mt-2">Quick Links</p>
-                <div class="d-flex justify-content-center">
-                    <hr class="hr-footer">
-                </div>
+    <div class="row text-center pt-4 pb-4">
+        <!-- Quick Links -->
+        <div class="col-12 col-md-4">
+            <p class="footer-heading mt-md-0 mt-2">Quick Links</p>
+            <div class="d-flex justify-content-center">
+                <hr class="hr-footer">
+            </div>
                 <a class="footer-quick-link" href="{% url 'products' %}">All Products</a>
                 <br>
                 <a class="footer-quick-link" href="{% url 'products' %}?category=noir,mystery,thriller">Crime</a>
@@ -16,36 +17,40 @@
                 <br>
                 <a class="footer-quick-link" href="{% url 'products' %}?category=hardscifi,spaceopera,dystopia">Science</a>
             </div>
-            <div class="col-12 col-md-4">
-                <p class="footer-heading mt-md-0 mt-4">Contact Us</p>
-                <div class="d-flex justify-content-center">
-                    <hr class="hr-footer">
-                </div>
-                <p><i class="fa-solid fa-location-dot"></i> Unit 12, West Road
-                    <br>
-                    Cardiff
-                    <br>
-                    CF10 4AY</p>
-                <p><i class="fa-solid fa-phone"></i> 029 599174</p>
-                <a class="footer-email" href="mailto:sales@shellyscorner.co.uk"><i class="fa-solid fa-envelope"></i>
-                    sales@shellyscorner.co.uk</a>
+            <!-- Contact details -->
+        <div class="col-12 col-md-4">
+            <p class="footer-heading mt-md-0 mt-4">Contact Us</p>
+            <div class="d-flex justify-content-center">
+                <hr class="hr-footer">
             </div>
-            <div class="col-12 col-md-4">
-                <p class="footer-heading mt-md-0 mt-4">Follow Us</p>
-                <div class="d-flex justify-content-center">
-                    <hr class="hr-footer">
-                </div>
-                <a class="footer-social-links pe-2" href="https://www.facebook.com" target="_blank"><i
-                        class="fa-brands fa-facebook"></i></a>
-                <a class="footer-social-links pe-2" href="https://www.instagram.com" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a class="footer-social-links" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            </div>
+            <p><i class="fa-solid fa-location-dot"></i> Unit 12, West Park
+                <br>
+                Swansea
+                <br>
+                SA10 4AY</p>
+                <a href="tel:01792599174" class="footer-tel"><p><i class="fa-solid fa-phone"></i> 01792 599174</p></a>
+            <a class="footer-email" href="mailto:shelly's_cornerteam@gmail.com"><i class="fa-solid fa-envelope"></i>
+                shelly's_cornerteam@gmail.com</a>
         </div>
-        <div class="row pb-4 text-center"></div>
-            <div class="col">
-                <p><i class="fa-regular fa-copyright"></i> 2024 Shelly's Corner - This is a fictional site for educational purposes only.</p>
+        <!-- Social media links -->
+        <div class="col-12 col-md-4">
+            <p class="footer-heading mt-md-0 mt-4">Follow Us</p>
+            <div class="d-flex justify-content-center">
+                <hr class="hr-footer">
             </div>
+            <a class="footer-social-links pe-2" href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a class="footer-social-links pe-2" href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a class="footer-social-links" href="https://www.youtube.com" target="_blank" aria-label="Visit our Youtube page"><i
+                    class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="row pb-4 text-center">
+        <div class="col">
+            <p><i class="fa-regular fa-copyright"></i> 2024 In Home - This is a fictional site for educational purposes
+                only.</p>
         </div>
     </div>
 </footer>
