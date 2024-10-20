@@ -76,6 +76,10 @@ p {
     --bs-btn-active-border-color: #0D1B2A;
 }
 
+.input-group-text {
+    padding: 0rem;
+}
+
 .to-top-button {
     height: 42px;
     width: 120px;
