@@ -73,10 +73,9 @@
                     <img src="{{ MEDIA_URL }}scLogo.png" alt="SC Logo" class="logo">
                 </a>
             </div>
-
             <div class="col-12 col-lg-4 my-auto">
                 <ul class="list-inline text-center text-lg-end my-0">
-                    <li class="nav-item list-inline-item dropdown">
+                    <li class="nav-item list-inline-item dropdown pt-3">
                         <a class="nav-link" href="#" id="user-options" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <div class="text-center my-auto">
@@ -157,8 +156,10 @@
     {% block page_header %}
     {% endblock %}
 
-    {% block content %}
-    {% endblock %}
+    <div class="main-content">
+        {% block content %}
+        {% endblock %}
+    </div>
 
     {% include 'includes/footer.html' %}
 
