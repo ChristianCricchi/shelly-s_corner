@@ -153,3 +153,21 @@ The original wireframes for the main pages of the store can be found below. Duri
 <img alt="Order Confirmation Page Wireframe" src="docs/wireframes/order-conf-wf.png">
 </details>
 
+### **Color Scheme**
+
+- Navy: #0D1B2A
+- Blue: #415A77
+- Black: #000
+- White: #fff
+- Grey: #d5d5d5 (used when hovering navigation links)
+
+The [WCAG Color Contrast Checker](https://accessibleweb.com/color-contrast-checker/) was used to ensure that any navy/blue and white/grey combinations were suitable for use. All results passed except the small text in the AAA test for the blue/grey combination, however after a discussion with my mentor we agreed this was OK as the criteria for the AAA testing is incredibly high and almost never passes.
+
+![Color contrast](docs/color/navy-white-color-check.png)
+
+![Color contrast](docs/color/blue-white-color-check.png)
+
+![Color contrast](docs/color/blue-grey-color-check.png)
+
+
+
