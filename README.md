@@ -169,5 +169,12 @@ The [WCAG Color Contrast Checker](https://accessibleweb.com/color-contrast-check
 
 ![Color contrast](docs/color/blue-grey-color-check.png)
 
+## **Typography**
+
+I decided to import and use the Outfit font using Google Fonts for the store, with Helvetica and sans-serif acting as the back up fonts should the Outfit import fail.
+
+
+
+
 
 
