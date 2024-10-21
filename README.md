@@ -296,22 +296,20 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 - On the payment page, the user is presented with a summary of their order, to ensure they are fully aware of what they are about to purchase. If they notice an error at this point, the user has the option to go back and modify the contents of their cart before finalizing the order and proceeding with payment.
 
---------------------------------------------------------------
-
 **Checkout Confirmation**
 
 ![Checkout confirmation](docs/features/other/checkout-confirm.png)
 
-- Once the user submits an order successfully, they are shown a confirmation page containing their order details, delivery and billing information.
-- **Email**: A confirmation of their order is also sent to their email address containing their order details.
-- **Order number**: The order number provided is unique to that particular order so it can be easily and uniquely referenced later if needed.
-- **Continue Shopping**: If the user wishes to continue shopping for more products, they can use the button provided to be redirected to the products page.
+- After the user successfully completes an order, a confirmation page is displayed containing the order details, delivery and billing information.
+- **Email**: An order confirmation is also sent to the user's email address, including the complete purchase details.
+- **Order number**: A unique order number is provided for that specific transaction, allowing easy and exclusive reference to the order in the future if needed.
+- **Continue Shopping**: If the user wishes to purchase more products, they can use the designated button to be redirected to the products page.
 
 <br>
 
 ![Checkout success message](docs/features/other/checkout-success.png)
 
-- In addition to the order confirmation provided above, and the email the user received, they are also shown a success message in the top right hand corner just to give them the extra confidence that their order was successfully submitted.
+- n addition to the order confirmation provided above and the email received by the user, a success message is also displayed in the top right corner, specifically to give them extra assurance that their order has been successfully submitted.
 
 **Login page**
 
