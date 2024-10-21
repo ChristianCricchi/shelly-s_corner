@@ -87,8 +87,6 @@ Shally's Corner is an online e-commerce store selling different book genres. Use
 
 ### **Database Schema**
 
-Many thanks to [Draw SQL](https://drawsql.app/) for assisting me with my database schema. This really helped me to visualise how the tables would be set up and where each table connects.
-
 ![Database Schema](docs/schema/dbschemanew2.png)
 
 ### **Wireframes**
@@ -979,8 +977,8 @@ Ensure you have the following:
 1. Clone the repository from GitHub:
 
     ```
-    git clone https://github.com/danielanthonycollins/in-home.git
-    cd in-home
+    git clone https://github.com/christiancricchi/shellys-corner.git
+    cd shellys-corner
     ```
 
 2. Set up the virtual environment in terminal:
@@ -1160,10 +1158,10 @@ The following people, websites and learning materials helped me with the creatio
 
 ### **Honourable mentions**
 
-Special thanks to my lovely wife Vivian that support me in all my crises moments.
-Special thanks to tutor Sarah that support me and help me to understand the errors, bugs and understand the basic of this projec with passion and professionality.
-Thanks to my mentor Antonio for his advice throughout this project.
-Thanks to Daniel Collins that inspired me.
+- Special thanks to my lovely wife Vivian that support me in all my crises moments.
+- Special thanks to tutor Sarah that support me and help me to understand the errors, bugs and understand the basic of this projec with passion and professionality.
+- Thanks to my mentor Antonio for his advice throughout this project.
+- Thanks to Daniel Collins that inspired me.
 
 
 
