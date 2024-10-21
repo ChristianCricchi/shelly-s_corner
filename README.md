@@ -315,19 +315,19 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 ![Login page](docs/features/other/login.png)
 
-- The login page is where the user is able to login to their pre-registered account. If the user doesn't have an account already, they are able to register for one using the link provided. They can also reset their password if they can't remember it.
+- The access page is where users can authenticate themselves into their pre-registered account. If a user doesn't have an account yet, they have the option to create one using the provided link. Additionally, they can reset their password in case they have forgotten it.
 
 **Sign up page**
 
 ![Sign up page](docs/features/other/signup.png)
 
-- The sign up page is where the user is able to create an account. Users must enter matching email addresses and passwords as part of the validation. The site will also inform them if they try to use a username which is already in use. If the user tries to signup for an account using an email address which is already in the database, an email will be sent to that email address to inform the person who has access to it, in case someone it trying to commit fraud.
+- The registration page allows users to create an account. As part of the validation process, users must enter matching email addresses and passwords. The site will also notify them if they attempt to use a username that is already taken. If a user tries to sign up using an email address already in the database, an email will be sent to that address to inform the person who has access to it, in case someone is attempting to commit fraud.
 
 **Password reset page**
 
 ![Password reset page](docs/features/other/password-reset.png)
 
-- This page allows the user to reset their password if they have forgotten it, so the user doesn't have to sign up for another account if they've just forgotten their password.
+- This page allows users to reset their password if they've forgotten it, eliminating the need to create a new account just because they can't remember their password.
 
 **Change password page**
 
@@ -339,30 +339,30 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 ![Add product](docs/features/other/add-product.png)
 
-- This page is only accessible by the superuser, so customers without permission are not able to access this page via the product detail page or by entering the /products/add/ into the URL bar.
-- Here, the superuser can add products to the store, selecting all of the relevant product details without having to access the admin panel.
+- This page is accessible only to the administrator, therefore customers without authorization cannot access it either from the product details page or by entering /products/add/ in the address bar.
+- In this section, the administrator can add products to the store, selecting all relevant details without having to access the administration panel.
 
 **Edit product**
 
 ![Edit product](docs/features/other/edit-product.png)
 
-- This page is only accessible by the superuser, so customers without permission are not able to access this page via the product detail page or by entering the /products/edit/ into the URL bar.
-- Here, the superuser can edit existing products in the store.
+- This page is accessible only to the system administrator, therefore customers without authorization cannot access it either through the product details page or by entering /products/edit/ in the address bar.
+- In this section, the administrator has the ability to modify existing products in the store.
 
 **Profile page**
 
 ![Profile page](docs/features/other/profile-page.png)
 
-- This is the users profile page. Here they can update their personal information.
-- Users can also view their past order history. By clicking on the shortened version of their order number, they are taken to a page showing their full order details in case they need to look back on what they ordered.
+- This is the user's profile page. Here they can update their personal details.
+- Users can also view their previous order history. By clicking on the abbreviated version of their order number, they are directed to a page displaying the full order details, in case they need to review what they purchased.
 
 **Contact page**
 
 ![Contact page](docs/features/other/contact-page.png)
 
-- The contact page is where the user can find multiple ways of contacting the store.
-- **Contact form**: The contact form allows the user a way of submitting a message to the store for a response. It requires a name, email, subject and enquiry message and once submitted, the form is sent to the In Home team's email address so they can assist the customer. If the user is already logged in, their email address is automatically entered for them.
-- **Contact details**: The contact page also features the company contact details, in case the user wishes to contact the store directly.
+- The contact page is where users can find various methods to communicate with the store.
+- **Contact form**: The contact form provides users with a way to send a message to the store and receive a response. It requires a name, email, subject, and message text. Once submitted, the form is sent to the In Home team's email address, allowing them to assist the customer. If the user is already logged in, their email address is automatically filled in.
+- **Contact details**: The contact page also includes the company's contact details, in case the user wishes to reach out to the store directly.
 
 ## **Future Enhancements**
 
