@@ -366,16 +366,16 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 ## **Future Enhancements**
 
-Some possible enhancements which could be applied in the future include:
+Some potential improvements that could be implemented in the future include:
 
-- A section in the users profile which displays any previous reviews they have left for products, with the option to update or delete them directly from their profile.
-- A featured product section above the footer which shows on any page of the site, so the store can promote the most popular products, or products they wish to push at any given time.
-- A social account login feature, so the user can login to the website using their social media account rather than an email
-- A special offers section for any discounted products or special deals available
-- A 'You may also like...' section at the bottom of each product which shows products the user may be interested in based on what they are currently viewing
-- A 'Suggested for you' section on the users profile page which suggests products they may wish to purchase based on their previous order history
-- A newsletter signup, so the store can market their products and special offers directly to interested users.
-- Product images could be converted to WebP format to allow faster page loading
+- A section in the user profile that displays previous reviews left for products, with the option to edit or delete them directly from the profile
+- A featured products section above the footer visible on every page of the site, allowing the store to promote the most popular items or those they wish to push at any given time.
+- A social account login feature, enabling users to log in to the site using their social media profile instead of an email.
+- A special offers section for any discounted products or available promotions.
+- A "You might also like..." section at the bottom of each product page showing items potentially interesting to the user based on what they are currently viewing.
+- A "Recommended for you" section on the user profile page suggesting products that might interest them based on their previous order history.
+- A newsletter subscription, so the store can promote its products and special offers directly to interested users.
+- Product images could be converted to WebP format to enable faster page loading.
 
 
 
