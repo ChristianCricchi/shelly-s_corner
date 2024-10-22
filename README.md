@@ -7,8 +7,6 @@ Shally's Corner is an online e-commerce store selling different book genres. Use
 
 [View the deployed project here](https://shellys-corner-5b60b12a8abf.herokuapp.com/)
 
-![Application shown on multiple devices]()
-
 - [**Shelly's Corner**](#shellys-corner)
 - [**Site Overview**](#site-overview)
 - [**Table of contents**](#table-of-contents)
@@ -87,7 +85,7 @@ Shally's Corner is an online e-commerce store selling different book genres. Use
 
 ### **Database Schema**
 
-![Database Schema](docs/schema/dbschemanew2.png)
+![Database Schema](docs/database/databaseSchema.png)
 
 ### **Wireframes**
 
@@ -98,56 +96,56 @@ The original wireframes for the main pages of the store can be found below. Duri
 <details>
 <summary>Home Page</summary>
 <br>
-<img alt="Home Page Wireframe" src="docs/wireframes/home-wf.png">
+<img alt="Home Page Wireframe" src="docs/wireframes/homepage.png">
 </details>
 <br>
 
 <details>
 <summary>Profile Page</summary>
 <br>
-<img alt="Profile Page Wireframe" src="docs/wireframes/user-profile-wf.png">
+<img alt="Profile Page Wireframe" src="docs/wireframes/profile.png">
 </details>
 <br>
 
 <details>
 <summary>Contact Page</summary>
 <br>
-<img alt="Contact Page Wireframe" src="docs/wireframes/contact-us-wf.png">
+<img alt="Contact Page Wireframe" src="docs/wireframes/contact.png">
 </details>
 <br>
 
 <details>
 <summary>Products Page</summary>
 <br>
-<img alt="Products Page Wireframe" src="docs/wireframes/products-wf.png">
+<img alt="Products Page Wireframe" src="docs/wireframes/products.png">
 </details>
 <br>
 
 <details>
 <summary>Product Detail Page</summary>
 <br>
-<img alt="Product Detail Page Wireframe" src="docs/wireframes/product-details-wf.png">
+<img alt="Product Detail Page Wireframe" src="docs/wireframes/product_detail.png">
 </details>
 <br>
 
 <details>
 <summary>Shopping Bag</summary>
 <br>
-<img alt="Shopping Bag Wireframe" src="docs/wireframes/shopping-cart-wf.png">
+<img alt="Shopping Bag Wireframe" src="docs/wireframes/shopping.png">
 </details>
 <br>
 
 <details>
 <summary>Checkout Page</summary>
 <br>
-<img alt="Checkout Page Wireframe" src="docs/wireframes/checkout-wf.png">
+<img alt="Checkout Page Wireframe" src="docs/wireframes/checkout.png">
 </details>
 <br>
 
 <details>
 <summary>Order Confirmation Page</summary>
 <br>
-<img alt="Order Confirmation Page Wireframe" src="docs/wireframes/order-conf-wf.png">
+<img alt="Order Confirmation Page Wireframe" src="docs/wireframes/order.png">
 </details>
 
 ### **Color Scheme**
@@ -160,11 +158,11 @@ The original wireframes for the main pages of the store can be found below. Duri
 
 The [WCAG Color Contrast Checker](https://accessibleweb.com/color-contrast-checker/) was used to ensure that any navy/blue and white/grey combinations were suitable for use. All results passed except the small text in the AAA test for the blue/grey combination, however after a discussion with my mentor we agreed this was OK as the criteria for the AAA testing is incredibly high and almost never passes.
 
-![Color contrast](docs/color/navy-white-color-check.png)
+![Color contrast](docs/color/blue-grey-color-check.PNG)
 
-![Color contrast](docs/color/blue-white-color-check.png)
+![Color contrast](docs/color/white-black-color-check.PNG)
 
-![Color contrast](docs/color/blue-grey-color-check.png)
+![Color contrast](docs/color/white-blue-color-check.PNG)
 
 ## **Typography**
 
@@ -176,7 +174,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 **Navigation**
 
-![Navigation](docs/features/all_pages/navbar.png)
+![Navigation](docs/features/all_pages/navbar.PNG)
 
 - **Search bar**: Users can quickly search for products. If the search bar is empty but the user clicks the search button, they receive a message informing them that no search term was entered. The search function finds results matching the product name or description, maximizing the chances of finding what's needed.
 - **Logo**: The Shelly's Corner logo was designed to be instantly recognizable as that of a home goods store. Clicking on the logo returns you to the main page.
@@ -189,7 +187,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 **Mobile Navigation**
 
-![Mobile navigation](docs/features/all_pages/navbar-mobile.png)
+![Mobile navigation](docs/features/all_pages/mobile-navbar.PNG)
 
 - **Burger icon**: On smaller devices, the main navigation bar is hidden within the burger icon positioned on the left.
 - **Search**: The search functionality operates identically across all devices. However, on more compact screens, the search bar appears as a dropdown menu that activates when clicking on the designated button, thus enhancing the user experience.
@@ -199,7 +197,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 **Footer**
 
-![Footer](docs/features/all_pages/footer.png)
+![Footer](docs/features/all_pages/footer.PNG)
 
 - **Quick links**: Quick links are provided at the bottom of the page, allowing users to rapidly access their desired products.
 - **Contact Us**: The store's address, phone number, and email address are visible on all pages, enabling users to easily and directly get in touch with the store.
@@ -208,7 +206,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 **Messages**
 
-![Messages](docs/features/all_pages/messages.png)
+![Messages](docs/features/all_pages/messages.PNG)
 
 - This box appears when a message is sent to the user to inform them about the success or failure of an action they have performed on the website.
 - **Success message**: This is displayed when the user has successfully completed an action, such as adding an item to their cart, placing an order, submitting a contact form inquiry, or logging in/out. If the user has items in their cart, they will also see a link to proceed to checkout. Additionally, if they haven't spent enough for free shipping, they are informed about how much more they need to spend to reach the threshold.
@@ -219,18 +217,18 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 **Home Page**
 
-![Home hero section](docs/features/other/home-hero-section.png)
+![Home hero section](docs/features/other/homepage.PNG)
 
 -This is one of the first elements the user will notice upon entering the site. The text and main image help to immediately understand the website's purpose. A "Shop Now" button is present to allow users to start shopping quickly and easily, directing them to the all products page. 
 
 <br>
 
-![Home categories section](docs/features/other/home-categories.png)
+![Home categories section](docs/features/other/books.PNG)
 
 - To provide a more specific understanding of the store's offerings, categories are neatly presented right after, enabling users to immediately begin shopping by category if they already know which area of their home they wish to furnish.
 **Products page**
 
-![Products page](docs/features/other/products-page-2.png)
+![Products page](docs/features/other/products.PNG)
 
 - **Sorting**: Users can sort products on any page using various parameters. When sorting by rating, products with a score are displayed first, followed by those without a current rating.
 - **Product layout**: On wider screens, the site maximizes width by showing 4 products per row. The number of products per row decreases as the screen/device size reduces. Even on small devices, two products are placed side by side to prevent users from having to scroll excessively to view all products. All details remain clearly visible even with two products per row.
@@ -239,7 +237,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 **Product detail page**
 
-![Product detail page](docs/features/other/product-detail.png)
+![Product detail page](docs/features/other/product_detail.PNG)
 
 - **Image**: Clicking on the image opens a new tab with an enlarged version of the product.
 - **Price**: TThe product price is clearly highlighted, allowing users to quickly assess the affordability of the purchase.
@@ -252,7 +250,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 **Reviews (Product detail page)**
 
-![Product review form](docs/features/other/review-form.png)
+![Product review form](docs/features/other/review.PNG)
 
 - Authenticated users have access to a form for leaving reviews on products listed on the website. They can input their feedback and assign a rating to the product, then submit the review which will be visible to all other users. The form can only be submitted if both feedback and a rating have been entered; otherwise, a pop-up notifies the user to complete both fields before proceeding.
 - If a user has already reviewed the product in question, submitting a new form will update their existing review. This option is provided in case the user has changed their opinion about the product. Additionally, it prevents a dissatisfied customer from leaving multiple negative reviews, which would unfairly affect the overall product rating.
@@ -261,7 +259,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 <br>
 
-![Product review list](docs/features/other/review-list-2.png)
+![Product review list](docs/features/other/review-submitted.PNG)
 
 - All submitted reviews are displayed in the list below the form, visible to all users. To optimise space and organize them neatly, they are stored within a Bootstrap accordion.
 - Users who have left a review have the option to delete it if they wish. Additionally, the superuser has the authority to remove any review present on the site, for example in case of inappropriate language. When a user selects the delete option, a confirmation prompt appears to prevent accidental deletions.
@@ -269,7 +267,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 **Shopping bag**
 
-![Shopping bag](docs/features/other/shopping-bag-2.png)
+![Shopping bag](docs/features/other/shopping_bag.PNG)
 
 - The shopping bag page displays the items that the user has added while browsing the site. If the cart is empty, a message is shown along with a button to return to shopping.
 - **Quantity / Update**: Users can modify the quantity of each item in the cart and update the total. Controls are in place to limit the quantity between 1 and 99, with informative messages for invalid attempts.
@@ -281,7 +279,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 **Checkout**
 
-![Checkout form](docs/features/other/checkout-form-new.png)
+![Checkout form](docs/features/other/checkout.PNG)
 
 - The payment form contains all the necessary details required from the user to process their order, including full name, email address, and delivery information.
 - **Save info**: A checkbox is available, offering users the option to save their information to their profile. By choosing this option, their details will be automatically pre-filled for their next order. Users can update this information on their profile page if they wish. If the user is not logged in, a message is displayed prompting them to log in or register to save their information.
@@ -289,13 +287,9 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 <br>
 
-![Checkout summary](docs/features/other/checkout-summary.png)
-
-- On the payment page, the user is presented with a summary of their order, to ensure they are fully aware of what they are about to purchase. If they notice an error at this point, the user has the option to go back and modify the contents of their cart before finalizing the order and proceeding with payment.
-
 **Checkout Confirmation**
 
-![Checkout confirmation](docs/features/other/checkout-confirm.png)
+![Checkout confirmation](docs/features/other/checkout_confirmation.PNG)
 
 - After the user successfully completes an order, a confirmation page is displayed containing the order details, delivery and billing information.
 - **Email**: An order confirmation is also sent to the user's email address, including the complete purchase details.
@@ -304,58 +298,53 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 <br>
 
-![Checkout success message](docs/features/other/checkout-success.png)
+![Checkout success message](docs/features/other/success.PNG)
 
 - n addition to the order confirmation provided above and the email received by the user, a success message is also displayed in the top right corner, specifically to give them extra assurance that their order has been successfully submitted.
 
 **Login page**
 
-![Login page](docs/features/other/login.png)
+![Login page](docs/features/other/sign_in.PNG)
 
 - The access page is where users can authenticate themselves into their pre-registered account. If a user doesn't have an account yet, they have the option to create one using the provided link. Additionally, they can reset their password in case they have forgotten it.
 
 **Sign up page**
 
-![Sign up page](docs/features/other/signup.png)
+![Sign up page](docs/features/other/sign_up.PNG)
 
 - The registration page allows users to create an account. As part of the validation process, users must enter matching email addresses and passwords. The site will also notify them if they attempt to use a username that is already taken. If a user tries to sign up using an email address already in the database, an email will be sent to that address to inform the person who has access to it, in case someone is attempting to commit fraud.
 
 **Password reset page**
 
-![Password reset page](docs/features/other/password-reset.png)
+![Password reset page](docs/features/other/change_password.PNG)
 
 - This page allows users to reset their password if they've forgotten it, eliminating the need to create a new account just because they can't remember their password.
 
-**Change password page**
-
-![Change password page](docs/features/other/change-password.png)
-
-- This page allows the logged in user to change their password if they wish. This is useful if they believe someone is trying to get access to their account and personal information.
 
 **Add a product**
 
-![Add product](docs/features/other/add-product.png)
+![Add product](docs/features/other/add_product.PNG)
 
 - This page is accessible only to the administrator, therefore customers without authorization cannot access it either from the product details page or by entering /products/add/ in the address bar.
 - In this section, the administrator can add products to the store, selecting all relevant details without having to access the administration panel.
 
 **Edit product**
 
-![Edit product](docs/features/other/edit-product.png)
+![Edit product](docs/features/other/edit_product.PNG)
 
 - This page is accessible only to the system administrator, therefore customers without authorization cannot access it either through the product details page or by entering /products/edit/ in the address bar.
 - In this section, the administrator has the ability to modify existing products in the store.
 
 **Profile page**
 
-![Profile page](docs/features/other/profile-page.png)
+![Profile page](docs/features/other/profile.PNG)
 
 - This is the user's profile page. Here they can update their personal details.
 - Users can also view their previous order history. By clicking on the abbreviated version of their order number, they are directed to a page displaying the full order details, in case they need to review what they purchased.
 
 **Contact page**
 
-![Contact page](docs/features/other/contact-page.png)
+![Contact page](docs/features/other/contact_page.PNG)
 
 - The contact page is where users can find various methods to communicate with the store.
 - **Contact form**: The contact form provides users with a way to send a message to the store and receive a response. It requires a name, email, subject, and message text. Once submitted, the form is sent to the In Home team's email address, allowing them to assist the customer. If the user is already logged in, their email address is automatically filled in.
@@ -667,84 +656,77 @@ Desktop Lighthouse Results
 <details>
 <summary>Home Page</summary>
 <br>
-<img alt="Home Page Desktop Lighthouse Results" src="docs/lighthouse/homedesktoplh.png">
+<img alt="Home Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/homepage.PNG">
 </details>
 <br>
 
 <details>
 <summary>Products Page</summary>
 <br>
-<img alt="Products Page Desktop Lighthouse Results" src="docs/lighthouse/productsdesktoplh.png">
+<img alt="Products Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/products.PNG">
 </details>
 <br>
 
 <details>
 <summary>Product Detail Page</summary>
 <br>
-<img alt="Product Detail Page Desktop Lighthouse Results" src="docs/lighthouse/productdetaildesktoplh.png">
-</details>
-<br>
-
-<details>
-<summary>Shopping Bag Page</summary>
-<br>
-<img alt="Shopping Bag Page Desktop Lighthouse Results" src="docs/lighthouse/bagdesktoplh.png">
+<img alt="Product Detail Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/product_details.PNG">
 </details>
 <br>
 
 <details>
 <summary>Checkout Page</summary>
 <br>
-<img alt="Checkout Page Desktop Lighthouse Results" src="docs/lighthouse/checkoutdesktoplh.png">
+<img alt="Checkout Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/checkout.PNG">
 </details>
 <br>
 
 <details>
 <summary>Order Confirmation Page</summary>
 <br>
-<img alt="Order Confirmation Page Desktop Lighthouse Results" src="docs/lighthouse/orderconfirmationdesktoplh.png">
+<img alt="Order Confirmation Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/order_confirmation.PNG">
 </details>
 <br>
 
 <details>
 <summary>Contact Page</summary>
 <br>
-<img alt="Contact Page Desktop Lighthouse Results" src="docs/lighthouse/contactdesktoplh.png">
+<img alt="Contact Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/contact_page.PNG">
 </details>
 <br>
 
 <details>
 <summary>Add Product Page</summary>
 <br>
-<img alt="Add Product Page Desktop Lighthouse Results" src="docs/lighthouse/addproductdesktoplh.png">
+<img alt="Add Product Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/add_product_page.PNG">
 </details>
 <br>
 
 <details>
 <summary>Edit Product Page</summary>
 <br>
-<img alt="Edit Product Page Desktop Lighthouse Results" src="docs/lighthouse/editproductdesktoplh.png">
+<img alt="Edit Product Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/edit_page.PNG">
 </details>
 <br>
 
 <details>
 <summary>Profile Page</summary>
 <br>
-<img alt="Profile Page Desktop Lighthouse Results" src="docs/lighthouse/profiledesktoplh.png">
+<img alt="Profile Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/profile_page.PNG">
 </details>
 <br>
 
 <details>
 <summary>Login Page</summary>
 <br>
-<img alt="Login Page Desktop Lighthouse Results" src="docs/lighthouse/signindesktoplh.png">
+<img alt="Login Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/login.PNG">
 </details>
 <br>
 
 <details>
 <summary>Register Page</summary>
 <br>
-<img alt="Register Page Desktop Lighthouse Results" src="docs/lighthouse/signupdesktoplh.png">
+<img alt="Register Page Desktop Lighthouse Results" src="docs/lighthouse/desktop/register.PNG">
 </details>
 <br>
 <br>
@@ -754,84 +736,70 @@ Mobile Lighthouse Results
 <details>
 <summary>Home Page</summary>
 <br>
-<img alt="Home Page Mobile Lighthouse Results" src="docs/lighthouse/homemobilelh.png">
+<img alt="Home Page Mobile Lighthouse Results" src="docs/lighthouse/mobile/homepage.PNG">
 </details>
 <br>
 
 <details>
 <summary>Products Page</summary>
 <br>
-<img alt="Products Page Mobile Lighthouse Results" src="docs/lighthouse/productsmobilelh.png">
+<img alt="Products Page Mobile Lighthouse Results" src="docs/lighthouse/mobile/products.PNG">
 </details>
 <br>
 
 <details>
 <summary>Product Detail Page</summary>
 <br>
-<img alt="Product Detail Page Mobile Lighthouse Results" src="docs/lighthouse/productdetailmobilelh.png">
+<img alt="Product Detail Page Mobile Lighthouse Results" src="docs/lighthouse/mobile/product_detail.PNG">
 </details>
 <br>
 
 <details>
 <summary>Shopping Bag Page</summary>
 <br>
-<img alt="Shopping Bag Page Mobile Lighthouse Results" src="docs/lighthouse/bagmobilelh.png">
+<img alt="Shopping Bag Page Mobile Lighthouse Results" src="docs/lighthouse/mobile/add_product.PNG">
 </details>
 <br>
 
 <details>
 <summary>Checkout Page</summary>
 <br>
-<img alt="Checkout Page Mobile Lighthouse Results" src="docs/lighthouse/checkoutmobilelh.png">
+<img alt="Checkout Page Mobile Lighthouse Results" src="docs/lighthouse/mobile/checkout.PNG">
 </details>
 <br>
 
 <details>
 <summary>Order Confirmation Page</summary>
 <br>
-<img alt="Order Confirmation Page Mobile Lighthouse Results" src="docs/lighthouse/orderconfirmationmobilelh.png">
-</details>
-<br>
-
-<details>
-<summary>Contact Page</summary>
-<br>
-<img alt="Contact Page Mobile Lighthouse Results" src="docs/lighthouse/contactmobilelh.png">
+<img alt="Order Confirmation Page Mobile Lighthouse Results" src="docs/lighthouse/mobile/order_confirmation.PNG">
 </details>
 <br>
 
 <details>
 <summary>Add Product Page</summary>
 <br>
-<img alt="Add Product Page Mobile Lighthouse Results" src="docs/lighthouse/addproductmobilelh.png">
-</details>
-<br>
-
-<details>
-<summary>Edit Product Page</summary>
-<br>
-<img alt="Edit Product Page Mobile Lighthouse Results" src="docs/lighthouse/editproductmobilelh.png">
+<img alt="Add Product Page Mobile Lighthouse Results" src="docs/lighthouse/mobile/add_product.PNG">
 </details>
 <br>
 
 <details>
 <summary>Profile Page</summary>
 <br>
-<img alt="Profile Page Mobile Lighthouse Results" src="docs/lighthouse/profilemobilelh.png">
+<img alt="Profile Page Mobile Lighthouse Results" src="docs/lighthouse/mobile/profile.PNG">
 </details>
 <br>
 
 <details>
 <summary>Login Page</summary>
 <br>
-<img alt="Login Page Mobile Lighthouse Results" src="docs/lighthouse/signinmobilelh.png">
+<img alt="Login Page Mobile Lighthouse Results" src="docs/lighthouse/mobile/login.PNG">
 </details>
 <br>
 
 <details>
 <summary>Register Page</summary>
 <br>
-<img alt="Register Page Mobile Lighthouse Results" src="docs/lighthouse/signupmobilelh.png">
+<img alt="Register Page Mobile Lighthouse Results" src="docs/lighthouse/mobile/register.PNG">
 </details>
 
 ### **Testing user stories**
