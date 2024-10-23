@@ -8,6 +8,8 @@ Shally's Corner is an online e-commerce store selling different book genres. Use
 
 [View the deployed project here](https://shellys-corner-5b60b12a8abf.herokuapp.com/)
 
+![Application shown on multiple devices](docs/responsive/responsive.PNG)
+
 - [**Shelly's Corner**](#shellys-corner)
 - [**Site Overview**](#site-overview)
 - [**Table of contents**](#table-of-contents)
