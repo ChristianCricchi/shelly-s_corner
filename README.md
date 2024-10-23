@@ -4,6 +4,7 @@
 
 Shally's Corner is an online e-commerce store selling different book genres. Users are able to browse and purchase books directly through the website, make an account to keep track of their order history, leave reviews for products they have purchased and contact the company for an inquiry via a contact form.
 
+| SuperUser | Name: Chris | Password: MaryShelly12! |
 
 [View the deployed project here](https://shellys-corner-5b60b12a8abf.herokuapp.com/)
 
