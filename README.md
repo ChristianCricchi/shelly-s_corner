@@ -222,7 +222,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 ![Home hero section](docs/features/other/homepage.PNG)
 
--This is one of the first elements the user will notice upon entering the site. The text and main image help to immediately understand the website's purpose. A "Shop Now" button is present to allow users to start shopping quickly and easily, directing them to the all products page. 
+- This is one of the first elements the user will notice upon entering the site. The text and main image help to immediately understand the website's purpose. A "Shop Now" button is present to allow users to start shopping quickly and easily, directing them to the all products page. 
 
 <br>
 
@@ -264,7 +264,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 ![Product review list](docs/features/other/review-submitted.PNG)
 
-- All submitted reviews are displayed in the list below the form, visible to all users. To optimise space and organize them neatly, they are stored within a Bootstrap accordion.
+- All submitted reviews are displayed in the list below the form, visible to all users. To optimise space and organise them neatly, they are stored within a Bootstrap accordion.
 - Users who have left a review have the option to delete it if they wish. Additionally, the superuser has the authority to remove any review present on the site, for example in case of inappropriate language. When a user selects the delete option, a confirmation prompt appears to prevent accidental deletions.
 - In the absence of reviews, the list is not shown, and a message appears instead, informing that no reviews have been submitted yet.
 
@@ -274,7 +274,7 @@ I decided to import and use the Outfit font using Google Fonts for the store, wi
 
 - The shopping bag page displays the items that the user has added while browsing the site. If the cart is empty, a message is shown along with a button to return to shopping.
 - **Quantity / Update**: Users can modify the quantity of each item in the cart and update the total. Controls are in place to limit the quantity between 1 and 99, with informative messages for invalid attempts.
-- **Remove item**: It's possible to completely remove items from the bag.
+- **Remove item**: It is possible to completely remove items from the bag.
 - **Product image**: Product images are clickable to return to the product page.
 - **Subtotal**: The subtotal for each product updates automatically when the quantity is modified.
 - **Free delivery threshold**: If the amount is below the £100 threshold for free shipping, a message appears indicating how much more is needed to reach it.
@@ -817,7 +817,7 @@ Mobile Lighthouse Results
 
 **User story 3**: As a new user, I want to browse all available products.
 
-**Achieved?**: Yes. The store includes an 'All Products' section where they can view all available products, which is accessible on all devices. Browsing is made easier with options to sort by various different parameters.
+**Achieved?**: Yes. The store includes an 'All Books' section where they can view all available products, which is accessible on all devices. Browsing is made easier with options to sort by various different parameters.
 
 **User story 4**: As a new user, I want to filter products to quickly find what I need.
 
@@ -867,7 +867,7 @@ Mobile Lighthouse Results
 
 **Achieved?**: Yes. The user is able to view and update their personal information on their profile page.
 
-**User story 16**: As a registered user, I want to create reviews for products I've purchased
+**User story 16**: As a registered user, I want to create reviews for products I have purchased
 
 **Achieved?**: Yes. Once logged in, users are able to create reviews for any product found within the store at the bottom of the product detail page for the product they are viewing.
 
@@ -889,7 +889,7 @@ Mobile Lighthouse Results
 
 **User story 21**: As a registered user, I want to make purchases without filling in my personal information each time
 
-**Achieved?**: Yes. Users are given the option to save their personal information in the checkout when completing an order, so it's saved to their profile and will be automatically filled in next time they order. They can also go to their profile and enter / update their information.
+**Achieved?**: Yes. Users are given the option to save their personal information in the checkout when completing an order, so it is saved to their profile and will be automatically filled in next time they order. They can also go to their profile and enter / update their information.
 
 **User story 22**: As a registered user, I want to logout of my account
 
@@ -1125,13 +1125,13 @@ Version Control:
 
 ## **Credits**
 
-The following people, websites and learning materials helped me with the creation of this project.
+The following people, helped me with the creation of this project.
 
 ### **Honourable mentions**
 
 - Special thanks to my lovely wife Vivian that support me in all my crises moments.
 - Special thanks to tutor Sarah that support me and help me to understand the errors, bugs and understand the basic of this projec with passion and professionality.
-- Thanks to my mentor Antonio for his advice throughout this project.
+- Thanks to my mentor Antonio Rodriguez for his advice throughout this project.
 - Thanks to Daniel Collins that inspired me.
 
 
